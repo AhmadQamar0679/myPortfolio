@@ -1,0 +1,12 @@
+
+<header class="header">
+    {% load static %}
+    <img src="{% static 'images/download.jpg' %}" alt="Logo" class="logo">
+    <nav>
+        <ul>
+            <li><a href="{% url 'home_page' %}">Home</a></li>
+            <li><a href="{% url 'about_page' %}">About</a></li>
+            <li><a href="{% url 'contact_page' %}">Contact</a></li>
+        </ul>
+    </nav>
+</header>
